@@ -82,7 +82,7 @@
         app:layout_constraintVertical_bias="0.044" />
 
     <Button
-        android:id="@+id/Bleeding"
+        android:id="@+id/bleeding"
         android:layout_width="288dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -112,7 +112,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Bleeding"
+        app:layout_constraintTop_toBottomOf="@+id/bleeding"
         app:layout_constraintVertical_bias="0.011" />
 
     <Button
