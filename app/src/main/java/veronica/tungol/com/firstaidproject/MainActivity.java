@@ -2,7 +2,9 @@ package veronica.tungol.com.firstaidproject;
 
 
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -21,6 +23,9 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -64,12 +69,15 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_emergency) {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new Emergency()).commit();
         } else if (id == R.id.nav_treatment) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new MenuTreatment()).commit();
+        }  else if (id == R.id.nav_scrapes) {
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new ScrapesTreatment()).commit();
+        } else if (id == R.id.nav_burns) {
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new BurnsTreatment()).commit();
+        } else if (id == R.id.nav_CPR) {
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new CprTreatment()).commit();
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
