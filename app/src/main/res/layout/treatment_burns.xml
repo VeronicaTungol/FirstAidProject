@@ -18,7 +18,9 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -43,117 +45,131 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.177" />
 
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                app:srcCompat="@drawable/burn" />
+
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 1:"
                 android:textColor="@color/colorPrimary"
-                android:text="1st Step:" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="The first thing you should do when you get a minor burn is run cool (not cold) water over the burn area for about 20 minutes. Then wash the burned area with mild soap and water." />
+                android:text="The first thing you should do when you get a minor burn is run cool (not cold) water over the burn area for about 20 minutes. Then wash the burned area with mild soap and water."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 2:"
                 android:textColor="@color/colorPrimary"
-                android:text="2nd Step:" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="A cool compress or clean wet cloth placed over the burn area helps relieve pain and swelling. You can apply the compress in 5- to 15-minute intervals. Try not to use excessively cold compresses because they may irritate the burn more." />
+                android:text="A cool compress or clean wet cloth placed over the burn area helps relieve pain and swelling. You can apply the compress in 5- to 15-minute intervals. Try not to use excessively cold compresses because they may irritate the burn more."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 3:"
                 android:textColor="@color/colorPrimary"
-                android:text="3rd Step:" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Antibiotic ointments and creams help prevent infections. Apply an antibacterial ointment like Bacitracin or Neosporin to your burn and cover with cling film or a sterile, non-fluffy dressing or cloth." />
+                android:text="Antibiotic ointments and creams help prevent infections. Apply an antibacterial ointment like Bacitracin or Neosporin to your burn and cover with cling film or a sterile, non-fluffy dressing or cloth."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 4:"
                 android:textColor="@color/colorPrimary"
-                android:text="4th Step:" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Apply a layer of pure aloe vera gel taken from the leaf of an aloe vera plant directly to the affected area. If you buy aloe vera in a store, make sure it contains a high percentage of aloe vera and avoid products that have additives, especially coloring and perfumes." />
+                android:text="Apply a layer of pure aloe vera gel taken from the leaf of an aloe vera plant directly to the affected area. If you buy aloe vera in a store, make sure it contains a high percentage of aloe vera and avoid products that have additives, especially coloring and perfumes."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 5:"
                 android:textColor="@color/colorPrimary"
-                android:text="5th Step:" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Honey just got sweeter. Apart from its delicious taste, honey may help heal a minor burn when applied topically. Honey is an anti-inflammatory and naturally anti-bacterial and anti-fungal." />
+                android:text="Honey just got sweeter. Apart from its delicious taste, honey may help heal a minor burn when applied topically. Honey is an anti-inflammatory and naturally anti-bacterial and anti-fungal."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 6:"
                 android:textColor="@color/colorPrimary"
-                android:text="6th Step;" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Do your best to avoid exposing the burn to direct sunlight. The burned skin will be very sensitive to the sun. Keep it covered with clothing." />
+                android:text="Do your best to avoid exposing the burn to direct sunlight. The burned skin will be very sensitive to the sun. Keep it covered with clothing."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 7:"
                 android:textColor="@color/colorPrimary"
-                android:text="7th Step:" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="As tempting as it may be, leave your blisters alone. Bursting a blister yourself can lead to infection. If you’re worried about blisters that have formed due to your burn, see a medical professional." />
+                android:text="As tempting as it may be, leave your blisters alone. Bursting a blister yourself can lead to infection. If you’re worried about blisters that have formed due to your burn, see a medical professional."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 8:"
                 android:textColor="@color/colorPrimary"
-                android:text="8th Step:" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="If you have pain, take an OTC pain reliever such as ibuprofen (Motrin, Advil) or naproxen (Aleve). Be sure to read the label for the correct dosage." />
+                android:text="If you have pain, take an OTC pain reliever such as ibuprofen (Motrin, Advil) or naproxen (Aleve). Be sure to read the label for the correct dosage."
+                android:textColor="@color/colorPrimary" />
         </LinearLayout>
     </ScrollView>
 

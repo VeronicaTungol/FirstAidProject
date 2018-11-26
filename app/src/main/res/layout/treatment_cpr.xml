@@ -19,8 +19,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="145dp">
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,103 +45,122 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.177" />
 
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                app:srcCompat="@drawable/cpr" />
+
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 1:Position your hand (below)"
                 android:textColor="@color/colorPrimary"
-                android:text="1st Step:Position your hand (below)" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Make sure the patient is lying on his back on a firm surface. Kneel beside him and place the heel of your hand on the center of the chest." />
+                android:text="Make sure the patient is lying on his back on a firm surface. Kneel beside him and place the heel of your hand on the center of the chest."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 2:Interlock fingers (below)"
                 android:textColor="@color/colorPrimary"
-                android:text="2nd Step:Interlock fingers (below)" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Keeping your arms straight, cover the first hand with the heel of your other hand and interlock the fingers of both hands together. Keep your fingers raised so they do not touch the patient’s chest or rib cage." />
+                android:text="Keeping your arms straight, cover the first hand with the heel of your other hand and interlock the fingers of both hands together. Keep your fingers raised so they do not touch the patient’s chest or rib cage."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 3:Give chest compressions (below)"
                 android:textColor="@color/colorPrimary"
-                android:text="3rd Step:Give chest compressions (below)" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Lean forward so that your shoulders are directly over the patient’s chest and press down on the chest about two inches. Release the pressure, but not your hands, and let the chest come back up. Repeat to give 30 compressions at a rate of 100 compressions per minute. " />
+                android:text="Lean forward so that your shoulders are directly over the patient’s chest and press down on the chest about two inches. Release the pressure, but not your hands, and let the chest come back up. Repeat to give 30 compressions at a rate of 100 compressions per minute. "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 4:Open the airway (below) "
                 android:textColor="@color/colorPrimary"
-                android:text="4th Step:Open the airway (below) " />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Move to the patient’s head. Tilt his head and lift his chin to open the airway again. Let his mouth fall open slightly." />
+                android:text="Move to the patient’s head. Tilt his head and lift his chin to open the airway again. Let his mouth fall open slightly."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 5:Give rescue breaths "
                 android:textColor="@color/colorPrimary"
-                android:text="5th Step:Give rescue breaths " />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Pinch the nostrils closed with the hand that was on the forehead and support the patient’s chin with your other hand. Take a normal breath, put your mouth over the patient’s, and blow until you can see his chest rise." />
+                android:text="Pinch the nostrils closed with the hand that was on the forehead and support the patient’s chin with your other hand. Take a normal breath, put your mouth over the patient’s, and blow until you can see his chest rise."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 6:Watch chest fall "
                 android:textColor="@color/colorPrimary"
-                android:text="6th Step:Watch chest fall " />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Remove your mouth from the patient’s and look along the chest, watching the chest fall. Repeat steps five and six once." />
+                android:text="Remove your mouth from the patient’s and look along the chest, watching the chest fall. Repeat steps five and six once."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 7:Repeat chest compressions and rescue breaths"
                 android:textColor="@color/colorPrimary"
-                android:text="7th Step:Repeat chest compressions and rescue breaths" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Place your hands on the chest again and repeat the cycle of 30 chest compressions, followed by two rescue breaths. Continue the cycle." />
+                android:text="Place your hands on the chest again and repeat the cycle of 30 chest compressions, followed by two rescue breaths. Continue the cycle."
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cpr" />
 
         </LinearLayout>
     </ScrollView>
