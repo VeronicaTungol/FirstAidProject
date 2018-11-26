@@ -21,18 +21,18 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_treatment"
-            android:title="Treatment">
-            <menu>
-                <item
-                    android:id="@+id/nav_share"
-                    android:icon="@drawable/ic_menu_share"
-                    android:title="Share" />
-                <item
-                    android:id="@+id/nav_send"
-                    android:icon="@drawable/ic_menu_send"
-                    android:title="Send" />
-            </menu>
-        </item>
+            android:title="Treatment"/>
+        <item
+            android:id="@+id/nav_scrapes"
+            android:title="- Scrapes" />
+        <item
+            android:id="@+id/nav_burns"
+            android:title="- Burns" />
+        <item
+            android:id="@+id/nav_CPR"
+            android:title="- CPR" />
+
+
     </group>
 
 </menu>
