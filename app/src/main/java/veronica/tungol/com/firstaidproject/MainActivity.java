@@ -74,10 +74,15 @@ public class MainActivity extends AppCompatActivity
             fragmentManager.beginTransaction().replace(R.id.content_frame, new ScrapesTreatment()).commit();
         } else if (id == R.id.nav_burns) {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new BurnsTreatment()).commit();
-        } else if (id == R.id.nav_CPR) {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new CprTreatment()).commit();
+        } else if (id == R.id.nav_bleeding) {
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new BleedingTreatment()).commit();
+        } else if (id == R.id.nav_fracture) {
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new FractureTreatment()).commit();
+        }  else if (id == R.id.nav_insectbite) {
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new InsectbiteTreatment()).commit();
+        } else if (id == R.id.nav_sprain) {
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new SprainTreatment()).commit();
         }
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
