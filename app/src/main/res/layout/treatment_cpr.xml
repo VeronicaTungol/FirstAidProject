@@ -38,6 +38,7 @@
                 android:text="How to treat CPR"
                 android:textColor="@color/colorPrimary"
                 android:textSize="24sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/content_frame"
                 app:layout_constraintHorizontal_bias="0.604"
@@ -56,6 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Step 1:Position your hand (below)"
+                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp" />
 
@@ -71,6 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Step 2:Interlock fingers (below)"
+                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp" />
 
@@ -86,6 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Step 3:Give chest compressions (below)"
+                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp" />
 
@@ -101,6 +105,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Step 4:Open the airway (below) "
+                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp" />
 
@@ -116,6 +121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Step 5:Give rescue breaths "
+                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp" />
 
@@ -131,6 +137,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Step 6:Watch chest fall "
+                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp" />
 
@@ -146,6 +153,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Step 7:Repeat chest compressions and rescue breaths"
+                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp" />
 

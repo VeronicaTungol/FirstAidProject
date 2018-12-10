@@ -36,6 +36,7 @@
                 android:layout_marginTop="100dp"
                 android:gravity="center"
                 android:text="How to treat Bleeding"
+                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -55,9 +56,10 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 1:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
-                android:text="Step 1:" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -72,6 +74,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 android:text="Step 2:" />
 
             <TextView
@@ -87,6 +90,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 android:text="Step 3:" />
 
             <TextView
@@ -102,6 +106,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 android:text="Step 4:" />
 
             <TextView
@@ -117,6 +122,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 android:text="Step 5:" />
 
             <TextView
@@ -132,6 +138,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 android:text="Step 6:" />
 
             <TextView
@@ -147,6 +154,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 android:text="Step 7:" />
 
             <TextView
@@ -162,6 +170,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 android:text="Step 8:" />
 
             <TextView

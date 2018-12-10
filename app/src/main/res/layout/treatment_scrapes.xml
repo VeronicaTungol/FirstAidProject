@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="145dp">
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,6 +38,7 @@
                 android:text="How to treat Scrapes"
                 android:textColor="@color/colorPrimary"
                 android:textSize="24sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/content_frame"
                 app:layout_constraintHorizontal_bias="0.604"
@@ -55,121 +56,129 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 1:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
-                android:text="Step 1:" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Wash your hands. This helps avoid infection." />
+                android:text="Wash your hands. This helps avoid infection."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 2:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
-                android:text="Step 2:" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Stop the bleeding. Minor cuts and scrapes usually stop bleeding on their own. If needed, apply gentle pressure with a clean bandage or cloth and elevate the wound until bleeding stops." />
+                android:text="Stop the bleeding. Minor cuts and scrapes usually stop bleeding on their own. If needed, apply gentle pressure with a clean bandage or cloth and elevate the wound until bleeding stops."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 3:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
-                android:text="Step 3:" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Clean the wound. Rinse the wound with water. Keeping the wound under running tap water will reduce the risk of infection. Wash around the wound with soap. But don't get soap in the wound. And don't use hydrogen peroxide or iodine, which can be irritating. Remove any dirt or debris with a tweezers cleaned with alcohol. See a doctor if you can't remove all debris." />
+                android:text="Clean the wound. Rinse the wound with water. Keeping the wound under running tap water will reduce the risk of infection. Wash around the wound with soap. But don't get soap in the wound. And don't use hydrogen peroxide or iodine, which can be irritating. Remove any dirt or debris with a tweezers cleaned with alcohol. See a doctor if you can't remove all debris."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 4:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
-                android:text="Step 4:" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Apply an antibiotic or petroleum jelly. Apply a thin layer of an antibiotic ointment or petroleum jelly to keep the surface moist and help prevent scarring. Certain ingredients in some ointments can cause a mild rash in some people. If a rash appears, stop using the ointment." />
+                android:text="Apply an antibiotic or petroleum jelly. Apply a thin layer of an antibiotic ointment or petroleum jelly to keep the surface moist and help prevent scarring. Certain ingredients in some ointments can cause a mild rash in some people. If a rash appears, stop using the ointment."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 5:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
-                android:text="Step 5:" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Cover the wound. Apply a bandage, rolled gauze or gauze held in place with paper tape. Covering the wound keeps it clean. If the injury is just a minor scrape or scratch, leave it uncovered." />
+                android:text="Cover the wound. Apply a bandage, rolled gauze or gauze held in place with paper tape. Covering the wound keeps it clean. If the injury is just a minor scrape or scratch, leave it uncovered."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 6;"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
-                android:text="Step 6;" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Change the dressing. Do this at least once a day or whenever the bandage becomes wet or dirty." />
+                android:text="Change the dressing. Do this at least once a day or whenever the bandage becomes wet or dirty."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 7:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
-                android:text="Step 7:" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Get a tetanus shot. Get a tetanus shot if you haven't had one in the past five years and the wound is deep or dirty." />
+                android:text="Get a tetanus shot. Get a tetanus shot if you haven't had one in the past five years and the wound is deep or dirty."
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Step 8:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
-                android:text="Step 8:" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary"
-                android:text="Watch for signs of infection. See a doctor if you see signs of infection on the skin or near the wound, such as redness, increasing pain, drainage, warmth or swelling." />
+                android:text="Watch for signs of infection. See a doctor if you see signs of infection on the skin or near the wound, such as redness, increasing pain, drainage, warmth or swelling."
+                android:textColor="@color/colorPrimary" />
         </LinearLayout>
     </ScrollView>
 
